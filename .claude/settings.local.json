@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:kaustubhpatange.medium.com)",
+      "WebSearch",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(pip install:*)",
+      "Bash(timeout:*)",
+      "Bash(pkill:*)",
+      "Bash(docker compose:*)",
+      "Bash(docker-compose down:*)",
+      "Bash(docker compose up:*)",
+      "Bash(docker-compose up:*)",
+      "Bash(docker logs:*)",
+      "Bash(chmod:*)",
+      "Bash(docker-compose restart:*)",
+      "Bash(echo:*)",
+      "Bash(docker exec:*)",
+      "Bash(xxd:*)",
+      "Bash(sudo apt-get install:*)",
+      "WebFetch(domain:asyncssh.readthedocs.io)",
+      "Bash(docker-compose build:*)"
+    ]
+  }
+}

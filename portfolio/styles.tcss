@@ -1,0 +1,106 @@
+/* Portfolio TUI Styles */
+
+Screen {
+    background: $surface;
+}
+
+/* Header styling */
+#header {
+    dock: top;
+    height: 3;
+    background: $primary;
+    color: $text;
+    text-align: center;
+    padding: 1;
+}
+
+/* Tabbed content styling */
+TabbedContent {
+    height: 100%;
+}
+
+TabPane {
+    padding: 1 2;
+}
+
+ContentSwitcher {
+    height: 1fr;
+}
+
+/* Markdown content styling */
+Markdown {
+    margin: 1 2;
+}
+
+MarkdownH1 {
+    color: $success;
+    text-style: bold;
+    margin-top: 1;
+}
+
+MarkdownH2 {
+    color: $primary-lighten-2;
+    text-style: bold;
+    margin-top: 1;
+}
+
+MarkdownH3 {
+    color: $secondary;
+    text-style: bold;
+}
+
+MarkdownBlockQuote {
+    border-left: thick $primary;
+    padding-left: 2;
+    color: $text-muted;
+    background: $surface-darken-1;
+    margin: 1 0;
+}
+
+MarkdownTable {
+    margin: 1 0;
+}
+
+MarkdownBulletList {
+    margin-left: 2;
+}
+
+/* Footer with help */
+#footer {
+    dock: bottom;
+    height: 3;
+    background: $surface-darken-1;
+    color: $text-muted;
+    text-align: center;
+    padding: 1;
+    border-top: solid $primary-darken-2;
+}
+
+/* Tab styling */
+Tab {
+    padding: 1 2;
+}
+
+Tab:focus {
+    text-style: bold;
+}
+
+Tab.-active {
+    background: $primary;
+    color: $text;
+}
+
+Underline {
+    background: $primary-darken-2;
+}
+
+/* Scrollbar styling */
+ScrollableContainer:focus {
+    border: none;
+}
+
+/* Links */
+MarkdownLink {
+    color: $primary-lighten-1;
+    text-style: underline;
+}

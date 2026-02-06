@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build: .
+    container_name: portfolio-ssh
+    restart: unless-stopped
+    ports:
+      - "2222:2222"
+    environment:
+      - SSH_PORT=2222
+      - HOST_KEY_DIR=keys
+    volumes:
+      # Persist host key across restarts using a named volume
+      - ssh_keys:/app/keys
+    # Security hardening
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:noexec,nosuid,nodev
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+        reservations:
+          cpus: '0.1'
+          memory: 64M
+    # Logging
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  ssh_keys:
