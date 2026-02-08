@@ -1,4 +1,5 @@
 ## Directory structure
+```
 └── portfolio
     ├── app.py
     ├── content
@@ -23,7 +24,7 @@
     ├── ssh_server.py
     ├── styles.tcss
     └── test_pty.py
-
+```
 ## To DO:
 1. Change the Markdown files in portfolio/content/*
 2. cd portfolio
