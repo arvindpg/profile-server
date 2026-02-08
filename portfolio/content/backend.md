@@ -1,24 +1,47 @@
-# Backend
+# Backend & Platform Engineering
+
+I specialize in building secure, optimized, and extensible backend systems using **Python (Django and FastAPI)**. I prioritize technical rigor and systems that "break loudly and early" to prevent silent failures.
+
+### Technical Proficiencies
+* **Core:** Python (Type-annotated), Django, FastAPI, Pydantic, Mypy.
+* **Databases:** PostgreSQL, MySQL, Google Bigtable, Elasticsearch, Redis, MongoDB.
+* **Messaging:** Google Pub/Sub, RabbitMQ.
+* **Testing:** Pytest, Unit Testing, Integration Testing.
+
+### High-Impact Projects
+
+#### **Senior Engineer | FireCompass** (Dec 2022 – Present)
+* **10x API Performance:** Optimized Django REST APIs by restructuring PostgreSQL queries and indexing, delivering an order of magnitude improvement in response times for an External Attack Surface Management platform.
+* **Microservices Architecture:** Developed FastAPI services using SQLAlchemy ORM and engineered a proxy service to orchestrate **Playwright** containers for automated browser-based security testing.
+* **Distributed Caching:** Architected a global server-side **Redis** cache with configurable invalidation rules, balancing real-time data accuracy with low latency.
+* **Data Integration (5x Speedup):** Built a pluggable system to convert custom security scripts into Knowledge Graphs (PostgreSQL), reducing integration time from **days to hours**.
+* **Scalable Data Strategy:** Transitioned asset metadata to **Google Bigtable** and scan data to **Google Cloud Storage** to ensure high availability and reliability.
+* **Concurrency Management:** Engineered a system to manage and gracefully abort concurrent security scans using **Google Pub/Sub** for real-time signaling.
+* **Global Alerting:** Developed a company-wide Slack alerting library for real-time incident notifications across all microservices.
+* **Security Automation:** Integrated 30+ external security tools (Nmap, Nessus, etc.) into a unified automated discovery workflow.
+
+#### **Senior Full Stack Engineer | VuNet Systems** (Jan 2020 – Dec 2022)
+* **Identity Management:** Re-architected a Big Data Analytics platform's access control, integrating **LDAP, ADFS SSO (Azure), and OAuth2**.
+* **Elasticsearch Upgrade:** Successfully reverse-engineered Kibana components to upgrade Elasticsearch from **6.8 to 7.17**, ensuring stability and modern feature access.
+* **Internal Tools:** Designed and implemented an HR Management System (HRMS) integrated directly into the platform's core authentication.
+
+#### **Analyst | Ernst & Young (EY)** (June 2018 – Dec 2019)
+* **Workflow Automation:** Enhanced internal Django applications by automating baseline configuration checks using **Ansible**, significantly reducing manual audit effort.
 
 ## Languages
 
 | Language | Experience | How I Use It |
 |----------|------------|--------------|
 | **Python** | 7+ years | My primary language - APIs, automation, security tooling |
-| **Node.js** | 3 years | Monitoring tools, Puppeteer-based automation |
-| **TypeScript** | 2 years | Frontend work, type-safe Node.js |
+| **Node.js** | 6 months| Monitoring tools, Puppeteer-based automation |
+| **Go** | 1-2 months| Integrate Plugins for Graphana |
 
-Python is a language that works across many domains - web development, APIs, DevOps scripting, security tooling, and now AI/ML. I made it a point to get proficient in Python so I could move between different areas without having to learn a new language each time. I also appreciate that Python lowers the barrier for non-programmers like scientists and researchers to build things.
-
-## Frameworks
 
 ### Python
 - **Django** - My go-to for full applications. I've optimized Django REST APIs to achieve 10x improvements in response times through PostgreSQL query optimization.
 - **FastAPI** - For microservices. I use SQLAlchemy ORM and Pydantic for data validation.
-- **Pytest** - I swear by test-driven development. Code without tests is hard to change confidently.
 
 ### Node.js
-- **Express** - Basic API development
 - **Puppeteer** - Built monitoring tools that perform passive application monitoring across multiple clients
 
 ## Databases
@@ -36,16 +59,9 @@ Python is a language that works across many domains - web development, APIs, Dev
 ## Message Queues
 
 - **Google Pub/Sub** - Real-time abort signals for distributed security scans
-- **RabbitMQ** - Task queues
 
-## What I've Built
+## Cloud Services
 
-A recent example: I built a pluggable platform where security researchers can write custom scripts and invoke them directly from our platform. The main goal was to make it extensible - we can add new integrations without touching core code. It's actively being used now with about 15 scripts integrated. The quality of the platform code directly affects the speed of new integrations.
-
-Another example: I developed a system that enables security engineers to add custom scripts, automatically converting their outputs into Knowledge Graphs and storing them in PostgreSQL. This reduced data integration time from 2-3 days to hours.
-
-## Principles
-
-1. **Code without tests is incomplete** - Code without tests is hard to change confidently, and code without documentation is hard for others to understand.
-2. **Design for failure** - I regularly work with asynchronous scan requests processed by pods on spot nodes. This forces me to design for interruption, so I build systems that checkpoint progress and resume without data loss.
-3. **Observability is essential** - Logs, metrics, and alerts help developers understand what exactly is happening in complex systems.
+- **Google Cloud Platform** - Pub/Sub, GKE, BigTable, GCS
+- **AWS** - Cloud Watch. (EC2 for personal projects)
+- **Azure** - Implemented SSO using Oauth2 with Azure AD 

@@ -41,14 +41,3 @@ At VuNet Systems, I collaborated with security audit teams to resolve vulnerabil
 
 I conducted sessions for developers to address gaps in our codebase. We cut common vulnerabilities by around 90%. When I left, the product was in a much better security posture than when I joined - that's something I'm proud of.
 
-## This Portfolio's Security
-
-This SSH portfolio demonstrates secure design:
-
-1. **No shell access** - TUI only, no command execution possible
-2. **No authentication data** - Public portfolio, nothing to steal
-3. **Rate limiting** - Prevents connection flooding
-4. **Containerized** - Isolated from host system
-5. **Connection limits** - Maximum concurrent connections enforced
-
-Security should be invisible - it doesn't get in the way of legitimate users but stops attackers cold.

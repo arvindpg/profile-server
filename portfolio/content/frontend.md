@@ -9,7 +9,6 @@ Frontend isn't my primary focus - I'm stronger on backend and infrastructure. Bu
 | Technology | Experience | Context |
 |------------|------------|---------|
 | **React.js** | Intermediate | Security dashboards, admin panels |
-| **TypeScript** | Intermediate | Type-safe frontend code |
 | **AngularJS** | Legacy | Maintained older applications |
 
 ## What I've Built
@@ -22,22 +21,6 @@ In my previous company, I worked on frontend features for the authentication, au
 
 ### Admin Panels
 I've built various admin interfaces for internal tools - nothing fancy, but functional interfaces that get the job done. My philosophy is that internal tools don't need to be beautiful, but they do need to be clear and usable.
-
-## My Approach
-
-When I work on frontend:
-- I focus on functionality over aesthetics
-- I make sure the UX is clear and doesn't confuse users
-- I write clean, typed code (TypeScript over vanilla JS)
-- I coordinate closely with dedicated frontend engineers when available
-
-## Terminal UIs
-
-I also enjoy building terminal-based interfaces. This portfolio itself is a TUI built with:
-- **Rich** - Python library for terminal formatting
-- **asyncssh** - Serving the TUI over SSH
-
-There's something satisfying about making things work elegantly in constrained environments.
 
 ## What I Prefer
 

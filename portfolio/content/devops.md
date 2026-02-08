@@ -2,7 +2,7 @@
 
 ## How I Got Here
 
-In the past few months, I've gained hands-on experience with Kubernetes and container orchestration. One of our three DevOps engineers left, so I volunteered to take on basic deployment responsibilities.
+In the past few months, I've gained hands-on experience with Kubernetes and container orchestration. 
 
 I worked on Dockerfiles, Kubernetes manifests (deployments, ConfigMaps, secrets, HPAs), and used Kustomize to manage configurations across Dev and QA environments. I also took ownership of the CI/CD pipelines for the services I'm involved with and learned to write multistage Dockerfiles.
 
@@ -47,6 +47,3 @@ I am responsible for releases and monitor rollouts, fixing issues as they come u
 - **OpenSearch** - Pushing logs when we need to analyze them
 - **Slack Alerts** - Created and deployed a company-wide alerting library that enables all microservices to send real-time incident notifications
 
-## Honest Assessment
-
-I'd be honest that my DevOps experience is more recent and practical rather than deep. I haven't built infrastructure from scratch using Terraform, and I don't have experience with service meshes or advanced Kubernetes operators. But I can deploy, troubleshoot, and manage the full lifecycle of services I own. This is an area I'm actively developing.

@@ -1,32 +1,27 @@
 # About Me
 
-I'm **Arvind P G**, a Python engineer with 7+ years of experience building secure, scalable backend systems. I'm currently based in Rotterdam, Netherlands.
+### Personal Details
+* **Name:** Arvind P G
+* **Current Role:** Senior Engineer (Python / Security Enthusiast)
+* **Location:** Rotterdam, Netherlands (Relocating by March 2026 or sooner upon employment)
+* **Contact:** [+31 616749008](tel:+31616749008) | [p.arvindgovind@gmail.com](mailto:p.arvindgovind@gmail.com)
+* **Visa Status:** On a Dependent Highly Skilled Migrant (HSM) visa; **no employer sponsorship required**
 
-## Quick Facts
+---
 
-- **Location**: Rotterdam, Netherlands
-- **Status**: On Dependent HSM visa - no sponsorship required
-- **Email**: p.arvindgovind@gmail.com
-- **Phone**: +31 616749008
+### Professional Profile
+I am a **Senior Python Engineer** and **Security Enthusiast** with over 7 years of experience building high-performance APIs and scalable infrastructure. I have used Ubuntu as my daily driver for a decade, giving me a deep, hands-on comfort with the Linux ecosystem.
 
-## What I Do
+I am recognized as the **"go-to guy" for debugging complex production issues**. Because I maintain a clear mental map of the entire system—from frontend logic and backend processing to DB queries and deployment infrastructure—I identify root causes that others might miss across the full lifecycle of a service.
 
-I primarily work in Python, using Django and FastAPI to build microservices and backend systems. My current focus is on cybersecurity tooling - I work on an External Attack Surface Management platform where I've integrated over 50 security tools, designed systems to process millions of IPs daily, and built infrastructure that handles distributed scanning at scale.
+### What I’m Looking For
+I am seeking **Backend or Platform Engineering** roles in the Netherlands where I can tackle challenging technical problems. I thrive in environments that value **clean code, rigorous testing, and architectural integrity** over quick hacks. 
 
-I'm known for debugging complex production issues with precision. When something breaks at 2 AM, I'm the one who traces it through logs, identifies the root cause, and fixes it properly rather than applying band-aids.
+Beyond technical excellence, I am driven to join a mission-oriented company that strives to create a **meaningful, positive impact on people's lives**. I believe that high-quality engineering is most powerful when it serves a greater social or community purpose.
 
-## Background
-
-I started my career at Ernst & Young as a security analyst, conducting penetration testing across web, Android, and iOS applications. That security mindset has stayed with me - I think about attack vectors when designing systems and write code that's secure by default.
-
-From there, I moved into backend development at VuNet Systems, building a Big Data Analytics Platform for banks and fintech companies. I re-architected their access control system, integrating LDAP, ADFS SSO, and OAuth2. Now at FireCompass, I own the integrations module and have shipped over 80 releases.
-
-## Philosophy
-
-I believe any code I write has to be maintainable and extensible. I write tests, do code reviews, and document my work. I think about edge cases and avoid shortcuts that create technical debt. When I mentor interns, I teach them to write code for extensibility and maintainability - not just code that works today, but code that can evolve over time.
-
-I design systems assuming failures will happen at some point. If something is going to break, I'd rather have it break loudly and early than silently corrupt data.
-
-## What I'm Looking For
-
-I'm looking for backend or platform engineering roles in the Netherlands where I can work on challenging technical problems. I have a strong preference for companies that value clean code, testing, and doing things properly over quick hacks.
+### Key Highlights
+* **Quick Technical Learner:** Proven ability to rapidly master new domains, such as moving from security analysis to core engineering and mastering container orchestration on the fly.
+* **Full-Stack Proficiency:** Able to work end-to-end across the stack: building React/JS frontends, designing Python/Django/FastAPI backends, managing DB architectures, and implementing security controls.
+* **Security SPOC:** Acted as the Single Point of Contact (SPOC) for all security issues and audits, bridging the gap between developers and auditors to harden the platform.
+* **Production Problem Solver:** Consistently trusted to resolve high-pressure production failures due to a comprehensive understanding of system interdependencies.
+* **Proactive Deployment Learning:** To support my own features, I proactively learned Docker and Kubernetes (Deployments, ConfigMaps, Secrets, HPA) to ensure my code is production-ready.
